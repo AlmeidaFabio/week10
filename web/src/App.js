@@ -19,7 +19,7 @@ function App() {
       setDevs(res.data)
     }
       loadDevs()
-  },[])
+  },[devs])
 
   async function handleAddDev(data) {
 
